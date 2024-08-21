@@ -1,19 +1,4 @@
-<?php
-session_start();
-
-$logged_in = isset($_SESSION['logged_in']) && $_SESSION['logged_in'];
-
-if ($logged_in) {
-    if (isset($_SESSION['userData'])) {
-        extract($_SESSION['userData']);
-        $avatar_url = "https://cdn.discordapp.com/avatars/$discord_id/$avatar.jpg";
-    }
-} else {
-    $avatar_url = '';
-    $name = '';
-}
-?>
-
+<?php include 'auth/init.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -75,19 +60,73 @@ if ($logged_in) {
         <div class="error-2006eee1-e11a-88fb-1bf3-ff4966de8fbe">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.
         </div>
       </div>
-      <div class="articles">
-        <div class="item-3">
-          <div class="text-38">Change to Systems</div>
-          <div class="text-39">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet. Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet. Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet. Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet. Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet. Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.</div>
-          <div class="frame-3">
-            <div class="text-40">Read More</div>
+      <div class="articles-2">
+        <div class="item-5">
+          <div class="infos-container">
+            <div class="infos">
+              <div class="title-description">
+                <div class="text-62">Changes to System</div>
+                <div class="text-63">Lorem ipsum dolor sit amet consectetur. Tempus integer morbi ac in libero. Sed rhoncus varius tristique amet lacus ut faucibus. Quis sed a blandit dolor sit nunc ridiculus volutpat. Urna accumsan quis turpis maecenas in vel.</div>
+              </div>
+            </div>
+            <a href="#" class="button-17">
+              <div class="button-primary-2">
+                <div class="button-primary-outline">
+                  <div class="text-64">View</div><img src="https://uploads-ssl.webflow.com/66c421ce29ac786db71695aa/66c587b5586805ad0aa0bc45_Vectors-Wrapper.svg" loading="lazy" width="20" height="20" alt="" class="vectors-wrapper-6">
+                </div>
+              </div>
+            </a>
           </div>
         </div>
-        <div class="item-3">
-          <div class="text-38">Change to Department</div>
-          <div class="text-39">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet. Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet. Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet. Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet. Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet. Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.</div>
-          <div class="frame-3">
-            <div class="text-40">Read More</div>
+        <div class="item-5">
+          <div class="infos-container">
+            <div class="infos">
+              <div class="title-description">
+                <div class="text-62">New Article 1</div>
+                <div class="text-63">Lorem ipsum dolor sit amet consectetur. Tempus integer morbi ac in libero. Sed rhoncus varius tristique amet lacus ut faucibus. Quis sed a blandit dolor sit nunc ridiculus volutpat. Urna accumsan quis turpis maecenas in vel.</div>
+              </div>
+            </div>
+            <a href="#" target="_blank" class="button-17">
+              <div class="button-primary-2">
+                <div class="button-primary-outline">
+                  <div class="text-64">View</div><img src="https://uploads-ssl.webflow.com/66c421ce29ac786db71695aa/66c587b5586805ad0aa0bc45_Vectors-Wrapper.svg" loading="lazy" width="20" height="20" alt="" class="vectors-wrapper-6">
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="item-5">
+          <div class="infos-container">
+            <div class="infos">
+              <div class="title-description">
+                <div class="text-62">Changes to Department</div>
+                <div class="text-63">Lorem ipsum dolor sit amet consectetur. Tempus integer morbi ac in libero. Sed rhoncus varius tristique amet lacus ut faucibus. Quis sed a blandit dolor sit nunc ridiculus volutpat. Urna accumsan quis turpis maecenas in vel.</div>
+              </div>
+            </div>
+            <a href="#" target="_blank" class="button-17">
+              <div class="button-primary-2">
+                <div class="button-primary-outline">
+                  <div class="text-64">View</div><img src="https://uploads-ssl.webflow.com/66c421ce29ac786db71695aa/66c587b5586805ad0aa0bc45_Vectors-Wrapper.svg" loading="lazy" width="20" height="20" alt="" class="vectors-wrapper-6">
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="item-5">
+          <div class="infos-container">
+            <div class="infos">
+              <div class="title-description">
+                <div class="text-62">Updates</div>
+                <div class="text-63">Lorem ipsum dolor sit amet consectetur. Tempus integer morbi ac in libero. Sed rhoncus varius tristique amet lacus ut faucibus. Quis sed a blandit dolor sit nunc ridiculus volutpat. Urna accumsan quis turpis maecenas in vel.</div>
+              </div>
+            </div>
+            <a href="#" target="_blank" class="button-17">
+              <div class="button-primary-2">
+                <div class="button-primary-outline">
+                  <div class="text-64">View</div><img src="https://uploads-ssl.webflow.com/66c421ce29ac786db71695aa/66c587b5586805ad0aa0bc45_Vectors-Wrapper.svg" loading="lazy" width="20" height="20" alt="" class="vectors-wrapper-6">
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>

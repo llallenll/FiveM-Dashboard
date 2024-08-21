@@ -1,18 +1,4 @@
-<?php
-session_start();
-
-$logged_in = isset($_SESSION['logged_in']) && $_SESSION['logged_in'];
-
-if ($logged_in) {
-    if (isset($_SESSION['userData'])) {
-        extract($_SESSION['userData']);
-        $avatar_url = "https://cdn.discordapp.com/avatars/$discord_id/$avatar.jpg";
-    }
-} else {
-    $avatar_url = '';
-    $name = '';
-}
-?>
+<?php include 'auth/init.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -71,15 +57,15 @@ if ($logged_in) {
   <div class="body-3">
     <div class="content-6">
       <div class="hero-7">
-        <div class="profile-5"><img src="<?php echo $avatar_url; ?>" loading="lazy" width="100" height="100" alt="" class="rectangle-3">
-          <div class="name-2 tag">
-            <div class="text-25"><?php echo $name; ?></div>
-            <div class="tags-2">
-              <div class="tag-5">
-                <div class="text-26">Admin</div>
+        <div class="profile-5"><img src="<?php echo $avatar_url; ?>" loading="lazy" width="100" height="100" alt="" class="rectangle-7">
+          <div class="name-4 tag">
+            <div class="text-51"><?php echo $name; ?></div>
+            <div class="tags-4">
+              <div class="tag-9">
+                <div class="text-52">Admin</div>
               </div>
-              <div class="tag-6">
-                <div class="text-26">VPD</div>
+              <div class="tag-8">
+                <div class="text-52">VPD</div>
               </div>
             </div>
           </div>
@@ -92,32 +78,97 @@ if ($logged_in) {
         <a href="profile-applications.php" class="link-block w-inline-block">
           <div class="text-14">My Applications</div>
         </a>
-        <a href="#" class="link-block w-inline-block">
+        <a href="profile-settings.php" class="link-block w-inline-block">
           <div class="text-15">Settings</div>
         </a>
       </div>
       <div class="text-28">Application Status</div>
-      <div class="applications-2">
-        <div class="table">
-          <div class="group">
-            <div class="text-29">#</div>
-            <div class="text-29">1042</div>
-            <div class="text-29">1067</div>
-          </div>
-          <div class="group">
-            <div class="text-29">Group</div>
-            <div class="text-29">Vespucci PD</div>
-            <div class="text-29">Staff Application</div>
-          </div>
-          <div class="group">
-            <div class="text-29">Date</div>
-            <div class="text-29">8/1/2024</div>
-            <div class="text-29">8/24/2024</div>
-          </div>
-          <div class="group">
-            <div class="text-29">Status</div>
-            <div class="text-30">Approved</div>
-            <div class="text-31">Denied</div>
+      <div class="applications-3">
+        <div class="table-2">
+          <div class="table-3">
+            <div class="header">
+              <div class="selectmenu">
+                <div class="select-white">
+                  <div class="text-65">Search...</div>
+                </div>
+              </div>
+            </div>
+            <div class="table-4">
+              <div class="column-1">
+                <div class="tableheaditem">
+                  <div class="span">Id</div>
+                </div>
+                <div class="tablebodyitem">
+                  <div class="span-2">4</div>
+                </div>
+                <div class="tablebodyitem">
+                  <div class="span-3">2</div>
+                </div>
+              </div>
+              <div class="column-2">
+                <div class="tableheaditem-2">
+                  <a href="#" target="_blank" class="button-18">
+                    <div class="button-gray">
+                      <div class="button-gray-ghost">
+                        <div class="button-19">Department</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="tablebodyitem-2">
+                  <div class="span-3">Staff</div>
+                </div>
+                <div class="tablebodyitem-2">
+                  <div class="span-3">VPD</div>
+                </div>
+              </div>
+              <div class="column-3">
+                <div class="tableheaditem-2">
+                  <a href="#" target="_blank" class="button-18">
+                    <div class="button-gray">
+                      <div class="button-gray-ghost">
+                        <div class="button-19">Date</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="tablebodyitem-2">
+                  <div class="span-3">8/5/24</div>
+                </div>
+                <div class="tablebodyitem-2">
+                  <div class="span-3">8/12/24</div>
+                </div>
+              </div>
+              <div class="column-4">
+                <div class="tableheaditem-2">
+                  <a href="#" target="_blank" class="button-18">
+                    <div class="button-gray">
+                      <div class="button-gray-ghost">
+                        <div class="button-19">Reviewer</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="tablebodyitem-2">
+                  <div class="span-3">A. Jackson</div>
+                </div>
+                <div class="tablebodyitem-2">
+                  <div class="span-3">A. Jackson</div>
+                </div>
+              </div>
+              <div class="column-5">
+                <div class="tableheaditem-2">
+                  <div class="span-4">Status</div>
+                </div>
+                <div class="tablebodyitem-2">
+                  <div class="text-66">Accepted</div>
+                </div>
+                <div class="tablebodyitem-2">
+                  <div class="text-67">Denied</div>
+                </div>
+              </div>
+            </div>
+            <div class="footer"></div>
           </div>
         </div>
       </div>

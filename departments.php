@@ -1,18 +1,4 @@
-<?php
-session_start();
-
-$logged_in = isset($_SESSION['logged_in']) && $_SESSION['logged_in'];
-
-if ($logged_in) {
-    if (isset($_SESSION['userData'])) {
-        extract($_SESSION['userData']);
-        $avatar_url = "https://cdn.discordapp.com/avatars/$discord_id/$avatar.jpg";
-    }
-} else {
-    $avatar_url = '';
-    $name = '';
-}
-?>
+<?php include 'auth/init.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -70,43 +56,61 @@ if ($logged_in) {
   </div>
   <div class="body-3">
     <div class="content-6">
-      <div class="hero-9">
-        <div class="text-35">Department Applications</div>
-        <div class="error-2006eee1-e11a-88fb-1bf3-ff4966de8fbe">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.
+      <div class="hero-13">
+        <div class="text-55">Department Applications</div>
+        <div class="l-rem-ipsum-vynas-tatapp-ifall-latyse-plarar-mas-balektiga-tism-inte-hexahet">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.
         </div>
       </div>
       <div class="departments">
-        <div class="item-2"><img src="images/Rectangle-2.png" loading="lazy" width="100" height="100" alt="" class="rectangle-2">
-          <div class="text-32">Vespucci PD</div>
-          <div class="error-2006eee1-e11a-88fb-1bf3-ff4966de8fbe">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.
+        <div class="item-4"><img src="images/Rectangle-2.png" loading="lazy" width="100" height="100" alt="" class="rectangle-9">
+          <div class="text-56">Vespucci PD</div>
+          <div class="l-rem-ipsum-vynas-tatapp-ifall-latyse-plarar-mas-balektiga-tism-inte-hexahet">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.
           </div>
-          <a href="#" target="_blank" class="button-7">
-            <div class="text-33">Closed</div>
-          </a>
+          <div class="buttons">
+            <a href="#" target="_blank" class="button-13">
+              <div class="text-57">Closed</div>
+            </a>
+            <a href="#" target="_blank" class="button-14">
+              <div class="text-58">55</div>
+              <div class="text-59">Members</div>
+            </a>
+          </div>
         </div>
-        <div class="item-2"><img src="images/Rectangle-2_1.png" loading="lazy" width="100" height="100" alt="" class="rectangle-2">
-          <div class="text-32">Merrillville Fire Dept.</div>
-          <div class="error-2006eee1-e11a-88fb-1bf3-ff4966de8fbe">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.
+        <div class="item-4"><img src="https://uploads-ssl.webflow.com/66c421ce29ac786db71695aa/66c5872e254ccb4a406ff36f_Rectangle-2.png" loading="lazy" width="100" height="100" alt="" class="rectangle-9">
+          <div class="text-56">Merrillville Fire Dept.</div>
+          <div class="l-rem-ipsum-vynas-tatapp-ifall-latyse-plarar-mas-balektiga-tism-inte-hexahet">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.
           </div>
-          <a href="#" target="_blank" class="button-8">
-            <div class="text-33">Apply</div>
-          </a>
+          <div class="buttons">
+            <a href="department-application.php" target="_blank" class="button-15">
+              <div class="text-60">Apply</div>
+            </a>
+            <a href="#" target="_blank" class="button-14">
+              <div class="text-58">44</div>
+              <div class="text-59">Members</div>
+            </a>
+          </div>
         </div>
-        <div class="item-2"><img src="images/Rectangle-2_2.png" loading="lazy" width="100" height="100" alt="" class="rectangle-2">
-          <div class="text-32">State Police</div>
-          <div class="error-2006eee1-e11a-88fb-1bf3-ff4966de8fbe">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.
+        <div class="item-4"><img src="images/Rectangle-2.png" loading="lazy" width="100" height="100" alt="" class="rectangle-9">
+          <div class="text-56">State Police</div>
+          <div class="l-rem-ipsum-vynas-tatapp-ifall-latyse-plarar-mas-balektiga-tism-inte-hexahet">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.
           </div>
-          <a href="#" target="_blank" class="button-8">
-            <div class="text-33">Apply</div>
-          </a>
+          <div class="buttons">
+            <a href="department-application.php" target="_blank" class="button-15">
+              <div class="text-60">Apply</div>
+            </a>
+            <a href="#" target="_blank" class="button-14">
+              <div class="text-58">102</div>
+              <div class="text-59">Members</div>
+            </a>
+          </div>
         </div>
       </div>
       <div class="frame-2">
-        <div class="action-3">
-          <div class="text-34">Already Applied</div>
-          <div class="error-2006eee1-e11a-88fb-1bf3-ff4966de8fbe">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.</div>
-          <a href="#" target="_blank" class="button-9">
-            <div class="text-33">View Applications</div>
+        <div class="action-6">
+          <div class="text-61">Already Applied</div>
+          <div class="l-rem-ipsum-vynas-tatapp-ifall-latyse-plarar-mas-balektiga-tism-inte-hexahet">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.</div>
+          <a href="#" target="_blank" class="button-16">
+            <div class="text-60">View Applications</div>
           </a>
         </div>
       </div>

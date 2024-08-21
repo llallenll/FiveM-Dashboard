@@ -1,11 +1,11 @@
 <?php include 'auth/init.php'; ?>
 <!DOCTYPE html>
-<html>
+<html data-wf-page="66c589279f03d31ebeb668ee" data-wf-site="66c421ce29ac786db71695aa">
 <head>
   <meta charset="utf-8">
-  <title>Profile</title>
-  <meta content="Profile" property="og:title">
-  <meta content="Profile" property="twitter:title">
+  <title>Profile Settings</title>
+  <meta content="Profile Settings" property="og:title">
+  <meta content="Profile Settings" property="twitter:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -54,7 +54,7 @@
     </a>
     <?php endif; ?>
   </div>
-  <div class="body-3">
+  <div class="body-7">
     <div class="content-6">
       <div class="hero-7">
         <div class="profile-5"><img src="<?php echo $avatar_url; ?>" loading="lazy" width="100" height="100" alt="" class="rectangle-7">
@@ -73,42 +73,20 @@
       </div>
       <div class="nav-2">
         <a href="profile.php" class="link-block w-inline-block">
-          <div class="text-14">Information</div>
+          <div class="text-15">Information</div>
         </a>
         <a href="profile-applications.php" class="link-block w-inline-block">
           <div class="text-15">My Applications</div>
         </a>
         <a href="profile-settings.php" class="link-block w-inline-block">
-          <div class="text-15">Settings</div>
+          <div class="text-14">Settings</div>
         </a>
       </div>
-      <div class="text-19">Player Infractions</div>
-      <div class="status-blocks">
-        <div class="players-stats">
-          <div class="text-19">Warnings</div>
-          <div class="text-20">0</div>
-        </div>
-        <div class="players-stats">
-          <div class="text-19">Kicks</div>
-          <div class="text-20">0</div>
-        </div>
-        <div class="players-stats">
-          <div class="text-19">Bans</div>
-          <div class="text-20">0</div>
-        </div>
-      </div>
-      <div class="text-19">Department Information</div>
-      <div class="status-blocks">
-        <div class="players-stats">
-          <div class="text-19">Current Department(s)</div>
-          <div class="text-20">Staff</div>
-          <div class="text-20">State Trooper</div>
-        </div>
-        <div class="players-stats">
-          <div class="text-19">Time Clock</div>
-          <div class="text-20">Staff: 0 Hours</div>
-          <div class="text-20">State Trooper: 16 Hours</div>
-        </div>
+      <div class="text-28">Settings</div>
+      <div class="applications-3">
+        <a href="#" target="_blank" class="button-3">
+          <div class="text-19">Log Out</div>
+        </a>
       </div>
     </div>
   </div>
