@@ -58,13 +58,13 @@
     <div class="content-6">
       <div class="hero-13">
         <div class="text-55">Department Applications</div>
-        <div class="l-rem-ipsum-vynas-tatapp-ifall-latyse-plarar-mas-balektiga-tism-inte-hexahet">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.
+        <div class="error-52cc5b20-e464-5bbb-19ea-e18ac5e0910c">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.
         </div>
       </div>
       <div class="departments">
-        <div class="item-4"><img src="images/Rectangle-2.png" loading="lazy" width="100" height="100" alt="" class="rectangle-9">
+        <div class="item-4"><img src="../images/Rectangle-5.png" loading="lazy" width="100" height="100" alt="" class="rectangle-9">
           <div class="text-56">Vespucci PD</div>
-          <div class="l-rem-ipsum-vynas-tatapp-ifall-latyse-plarar-mas-balektiga-tism-inte-hexahet">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.
+          <div class="error-52cc5b20-e464-5bbb-19ea-e18ac5e0910c">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.
           </div>
           <div class="buttons">
             <a href="#" target="_blank" class="button-13">
@@ -76,9 +76,9 @@
             </a>
           </div>
         </div>
-        <div class="item-4"><img src="https://uploads-ssl.webflow.com/66c421ce29ac786db71695aa/66c5872e254ccb4a406ff36f_Rectangle-2.png" loading="lazy" width="100" height="100" alt="" class="rectangle-9">
+        <div class="item-4"><img src="../images/Rectangle-2_2.png" loading="lazy" width="100" height="100" alt="" class="rectangle-9">
           <div class="text-56">Merrillville Fire Dept.</div>
-          <div class="l-rem-ipsum-vynas-tatapp-ifall-latyse-plarar-mas-balektiga-tism-inte-hexahet">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.
+          <div class="error-52cc5b20-e464-5bbb-19ea-e18ac5e0910c">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.
           </div>
           <div class="buttons">
             <a href="department-application.php" target="_blank" class="button-15">
@@ -90,9 +90,9 @@
             </a>
           </div>
         </div>
-        <div class="item-4"><img src="images/Rectangle-2.png" loading="lazy" width="100" height="100" alt="" class="rectangle-9">
+        <div class="item-4"><img src="../images/Rectangle-2_1.png" loading="lazy" width="100" height="100" alt="" class="rectangle-9">
           <div class="text-56">State Police</div>
-          <div class="l-rem-ipsum-vynas-tatapp-ifall-latyse-plarar-mas-balektiga-tism-inte-hexahet">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.
+          <div class="error-52cc5b20-e464-5bbb-19ea-e18ac5e0910c">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.
           </div>
           <div class="buttons">
             <a href="department-application.php" target="_blank" class="button-15">
@@ -108,7 +108,7 @@
       <div class="frame-2">
         <div class="action-6">
           <div class="text-61">Already Applied</div>
-          <div class="l-rem-ipsum-vynas-tatapp-ifall-latyse-plarar-mas-balektiga-tism-inte-hexahet">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.</div>
+          <div class="error-52cc5b20-e464-5bbb-19ea-e18ac5e0910c">Lörem ipsum vynas tatapp ifall latyse. Plarar mas balektiga tism inte hexahet.</div>
           <a href="#" target="_blank" class="button-16">
             <div class="text-60">View Applications</div>
           </a>

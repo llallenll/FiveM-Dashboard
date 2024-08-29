@@ -1,7 +1,7 @@
 <?php
 
 include '../config/config.php';
-include('../db/db.php');
+include '../db/db.php';
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);

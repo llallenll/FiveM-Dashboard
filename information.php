@@ -53,8 +53,8 @@
     <?php endif; ?>
   </div>
   <div class="body">
-    <div class="hero"><img src="" loading="lazy" width="100.00007629394531" height="40" alt="" class="vectors-wrapper">
-      <div class="text-3">PAGE NOT YET COMPLETED...</div>
+    <div class="hero"><img src="../images/Rectangle-4.png" loading="lazy" width="100.00007629394531" height="40" alt="" class="vectors-wrapper">
+      <div class="text-3">UNDER DEVELOPMENT</div>
     </div>
   </div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=66c421ce29ac786db71695aa" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>

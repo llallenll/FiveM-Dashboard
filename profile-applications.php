@@ -56,16 +56,16 @@
   </div>
   <div class="body-3">
     <div class="content-6">
-      <div class="hero-7">
-        <div class="profile-5"><img src="<?php echo $avatar_url; ?>" loading="lazy" width="100" height="100" alt="" class="rectangle-7">
-          <div class="name-4 tag">
-            <div class="text-51"><?php echo $name; ?></div>
-            <div class="tags-4">
-              <div class="tag-9">
-                <div class="text-52">Admin</div>
+      <div class="hero-15">
+        <div class="profile-9"><img src="<?php echo $avatar_url; ?>" loading="lazy" width="48" height="48" alt="" class="rectangle-1">
+          <div class="name-6 tag">
+            <div class="text-70"><?php echo $name; ?></div>
+            <div class="tags-6">
+              <div class="tag-11">
+                <div class="text-71">Admin</div>
               </div>
-              <div class="tag-8">
-                <div class="text-52">VPD</div>
+              <div class="tag-12">
+                <div class="text-71">VPD</div>
               </div>
             </div>
           </div>
@@ -82,93 +82,93 @@
           <div class="text-15">Settings</div>
         </a>
       </div>
-      <div class="text-28">Application Status</div>
-      <div class="applications-3">
-        <div class="table-2">
-          <div class="table-3">
-            <div class="header">
-              <div class="selectmenu">
-                <div class="select-white">
-                  <div class="text-65">Search...</div>
+      <div class="text-74">Application Status</div>
+      <div class="applications-4">
+        <div class="table-5">
+          <div class="table-6">
+            <div class="header-2">
+              <div class="selectmenu-2">
+                <div class="select-white-2">
+                  <div class="text-75">Search...</div>
                 </div>
               </div>
             </div>
-            <div class="table-4">
-              <div class="column-1">
-                <div class="tableheaditem">
-                  <div class="span">Id</div>
+            <div class="table-7">
+              <div class="column-6">
+                <div class="tableheaditem-3">
+                  <div class="span-5">Id</div>
                 </div>
-                <div class="tablebodyitem">
-                  <div class="span-2">4</div>
+                <div class="tablebodyitem-3">
+                  <div class="span-6">4</div>
                 </div>
-                <div class="tablebodyitem">
-                  <div class="span-3">2</div>
+                <div class="tablebodyitem-3">
+                  <div class="span-7">2</div>
                 </div>
               </div>
-              <div class="column-2">
-                <div class="tableheaditem-2">
-                  <a href="#" target="_blank" class="button-18">
-                    <div class="button-gray">
-                      <div class="button-gray-ghost">
-                        <div class="button-19">Department</div>
+              <div class="column-7">
+                <div class="tableheaditem-4">
+                  <a href="#" target="_blank" class="button-20">
+                    <div class="button-gray-2">
+                      <div class="button-gray-ghost-2">
+                        <div class="button-21">Department</div>
                       </div>
                     </div>
                   </a>
                 </div>
-                <div class="tablebodyitem-2">
-                  <div class="span-3">Staff</div>
+                <div class="tablebodyitem-4">
+                  <div class="span-7">Staff</div>
                 </div>
-                <div class="tablebodyitem-2">
-                  <div class="span-3">VPD</div>
+                <div class="tablebodyitem-4">
+                  <div class="span-7">VPD</div>
                 </div>
               </div>
-              <div class="column-3">
-                <div class="tableheaditem-2">
-                  <a href="#" target="_blank" class="button-18">
-                    <div class="button-gray">
-                      <div class="button-gray-ghost">
-                        <div class="button-19">Date</div>
+              <div class="column-8">
+                <div class="tableheaditem-4">
+                  <a href="#" target="_blank" class="button-20">
+                    <div class="button-gray-2">
+                      <div class="button-gray-ghost-2">
+                        <div class="button-21">Date</div>
                       </div>
                     </div>
                   </a>
                 </div>
-                <div class="tablebodyitem-2">
-                  <div class="span-3">8/5/24</div>
+                <div class="tablebodyitem-4">
+                  <div class="span-7">8/5/24</div>
                 </div>
-                <div class="tablebodyitem-2">
-                  <div class="span-3">8/12/24</div>
+                <div class="tablebodyitem-4">
+                  <div class="span-7">8/12/24</div>
                 </div>
               </div>
-              <div class="column-4">
-                <div class="tableheaditem-2">
-                  <a href="#" target="_blank" class="button-18">
-                    <div class="button-gray">
-                      <div class="button-gray-ghost">
-                        <div class="button-19">Reviewer</div>
+              <div class="column-9">
+                <div class="tableheaditem-4">
+                  <a href="#" target="_blank" class="button-20">
+                    <div class="button-gray-2">
+                      <div class="button-gray-ghost-2">
+                        <div class="button-21">Reviewer</div>
                       </div>
                     </div>
                   </a>
                 </div>
-                <div class="tablebodyitem-2">
-                  <div class="span-3">A. Jackson</div>
+                <div class="tablebodyitem-4">
+                  <div class="span-7">A. Jackson</div>
                 </div>
-                <div class="tablebodyitem-2">
-                  <div class="span-3">A. Jackson</div>
+                <div class="tablebodyitem-4">
+                  <div class="span-7">A. Jackson</div>
                 </div>
               </div>
-              <div class="column-5">
-                <div class="tableheaditem-2">
-                  <div class="span-4">Status</div>
+              <div class="column-10">
+                <div class="tableheaditem-4">
+                  <div class="span-8">Status</div>
                 </div>
-                <div class="tablebodyitem-2">
-                  <div class="text-66">Accepted</div>
+                <div class="tablebodyitem-4">
+                  <div class="text-76">Accepted</div>
                 </div>
-                <div class="tablebodyitem-2">
-                  <div class="text-67">Denied</div>
+                <div class="tablebodyitem-4">
+                  <div class="text-77">Denied</div>
                 </div>
               </div>
             </div>
-            <div class="footer"></div>
+            <div class="footer-2"></div>
           </div>
         </div>
       </div>

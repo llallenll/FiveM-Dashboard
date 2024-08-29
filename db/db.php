@@ -10,8 +10,7 @@ $db = $var_db;
 try {
   $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
   $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-  echo "Connected successfully";
+  
 }
 catch(PDOException $e){
   echo "Connection failed: " . $e->getMessage();
@@ -63,7 +62,7 @@ function getDutyTimeByLicenseIdentifier($pdo, $license_identifier) {
         $stmt = $pdo->prepare($sql);
         $stmt->execute(['license_identifier' => $license_identifier]);
         $data = $stmt->fetch(PDO::FETCH_ASSOC);
-        return $data['total_time_on_duty'] ?? 0;
+        return $data['total_time_on_duty'] ?? 0; // Return 0 if no data is found
     } catch (Exception $e) {
         echo $e;
     }
@@ -72,5 +71,5 @@ function getDutyTimeByLicenseIdentifier($pdo, $license_identifier) {
 $license_identifier = 'license:2e31f99ac6dd7ffa3bdf0365e7d300fb4f888250';
 $total_time_on_duty = getDutyTimeByLicenseIdentifier($pdo, $license_identifier);
 
-$hours = floor($total_time_on_duty / 60);
-$minutes = $total_time_on_duty % 60;
+$hours = floor($total_time_on_duty / 3600);
+$minutes = floor($total_time_on_duty % 3600 / 60);

@@ -54,10 +54,10 @@
     </a>
     <?php endif; ?>
   </div>
-  <div class="body-7">
+  <div class="body">
     <div class="content-6">
       <div class="hero-7">
-        <div class="profile-5"><img src="<?php echo $avatar_url; ?>" loading="lazy" width="100" height="100" alt="" class="rectangle-7">
+        <div class="profile-5"><img src="<?php echo $avatar_url; ?>" loading="lazy" width="48" height="48" alt="" class="rectangle-1">
           <div class="name-4 tag">
             <div class="text-51"><?php echo $name; ?></div>
             <div class="tags-4">
@@ -84,7 +84,7 @@
       </div>
       <div class="text-28">Settings</div>
       <div class="applications-3">
-        <a href="#" target="_blank" class="button-3">
+        <a href="../auth/logout.php" class="button-3">
           <div class="text-19">Log Out</div>
         </a>
       </div>

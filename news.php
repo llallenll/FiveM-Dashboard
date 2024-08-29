@@ -53,7 +53,7 @@
     <?php endif; ?>
   </div>
   </div>
-  <div class="body-10">
+  <div class="body-3">
     <div class="content-6">
       <div class="hero-10">
         <div class="text-38">Lake County News</div>
@@ -72,7 +72,7 @@
             <a href="#" class="button-17">
               <div class="button-primary-2">
                 <div class="button-primary-outline">
-                  <div class="text-64">View</div><img src="https://uploads-ssl.webflow.com/66c421ce29ac786db71695aa/66c587b5586805ad0aa0bc45_Vectors-Wrapper.svg" loading="lazy" width="20" height="20" alt="" class="vectors-wrapper-6">
+                  <div class="text-64">View</div><img src="../images/Vectors-Wrapper.svg" loading="lazy" width="20" height="20" alt="" class="vectors-wrapper-6">
                 </div>
               </div>
             </a>
@@ -89,7 +89,7 @@
             <a href="#" target="_blank" class="button-17">
               <div class="button-primary-2">
                 <div class="button-primary-outline">
-                  <div class="text-64">View</div><img src="https://uploads-ssl.webflow.com/66c421ce29ac786db71695aa/66c587b5586805ad0aa0bc45_Vectors-Wrapper.svg" loading="lazy" width="20" height="20" alt="" class="vectors-wrapper-6">
+                  <div class="text-64">View</div><img src="../images/Vectors-Wrapper.svg" loading="lazy" width="20" height="20" alt="" class="vectors-wrapper-6">
                 </div>
               </div>
             </a>
@@ -106,7 +106,7 @@
             <a href="#" target="_blank" class="button-17">
               <div class="button-primary-2">
                 <div class="button-primary-outline">
-                  <div class="text-64">View</div><img src="https://uploads-ssl.webflow.com/66c421ce29ac786db71695aa/66c587b5586805ad0aa0bc45_Vectors-Wrapper.svg" loading="lazy" width="20" height="20" alt="" class="vectors-wrapper-6">
+                  <div class="text-64">View</div><img src="../images/Vectors-Wrapper.svg" loading="lazy" width="20" height="20" alt="" class="vectors-wrapper-6">
                 </div>
               </div>
             </a>
@@ -123,7 +123,7 @@
             <a href="#" target="_blank" class="button-17">
               <div class="button-primary-2">
                 <div class="button-primary-outline">
-                  <div class="text-64">View</div><img src="https://uploads-ssl.webflow.com/66c421ce29ac786db71695aa/66c587b5586805ad0aa0bc45_Vectors-Wrapper.svg" loading="lazy" width="20" height="20" alt="" class="vectors-wrapper-6">
+                  <div class="text-64">View</div><img src="../images/Vectors-Wrapper.svg" loading="lazy" width="20" height="20" alt="" class="vectors-wrapper-6">
                 </div>
               </div>
             </a>

@@ -58,15 +58,15 @@
   <div class="body-3">
     <div class="content-6">
       <div class="hero-7">
-        <div class="profile-5"><img src="<?php echo $avatar_url; ?>" loading="lazy" width="100" height="100" alt="" class="rectangle-7">
-          <div class="name-4 tag">
-            <div class="text-51"><?php echo $name; ?></div>
+        <div class="profile-5"><img src="<?php echo $avatar_url; ?>" loading="lazy" width="48" height="48" alt="" class="rectangle-1">
+          <div class="name-3 tag">
+            <div class="text-49"><?php echo $name; ?></div>
             <div class="tags-4">
-              <div class="tag-9">
-                <div class="text-52">Admin</div>
+              <div class="tag-7">
+                <div class="text-50">Admin</div>
               </div>
               <div class="tag-8">
-                <div class="text-52">VPD</div>
+                <div class="text-50">VPD</div>
               </div>
             </div>
           </div>
@@ -107,7 +107,7 @@
         </div>
         <div class="players-stats">
           <div class="text-19">Time Clock</div>
-          <div class="text-20">Staff: 0 Hours</div>
+          <div class="text-20">Staff: 0 Hours 0 Minutes</div>
           <div class="text-20">VPD: <?php echo $hours . ' Hours ' . $minutes . ' Minutes'; ?></div>
         </div>
       </div>
