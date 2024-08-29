@@ -8,7 +8,7 @@ $var_redirect_uri = ''; // REDIRECT URL
 
 // DATABASE VARIABLES
 
-$var_host = 'localhost'; // URL OF PHPMYADMIN SERVER
+$var_host = ''; // URL OF PHPMYADMIN SERVER
 $var_user = ''; // USERNAME OF PHPMYADMIN SERVER
 $var_pass = ''; // PASSWORD OF PHPMYADMIN SERVER
 $var_db = ''; // DATABASE OF PHPMYADMIN SERVER
