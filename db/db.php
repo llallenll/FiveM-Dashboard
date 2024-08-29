@@ -45,16 +45,6 @@ function getUserFromDatabase($pdo,$discord_id){
     }
 }
 
-$discord_id = 'test';
-$user_data = getUserFromDatabase($pdo,$discord_id);
-
-if($user_data){
-    echo 'user exists:';
-    print_r($user_data);
-}else{
-    echo 'no user exists';
-}
-
 function getAllUsersFromDatabase($pdo){
     $sql = "SELECT * FROM users";
     try {
@@ -66,3 +56,21 @@ function getAllUsersFromDatabase($pdo){
         echo $e;
     }
 }
+
+function getDutyTimeByLicenseIdentifier($pdo, $license_identifier) {
+    $sql = "SELECT SUM(time_on_duty) as total_time_on_duty FROM duty_logs WHERE license_identifier = :license_identifier";
+    try {
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute(['license_identifier' => $license_identifier]);
+        $data = $stmt->fetch(PDO::FETCH_ASSOC);
+        return $data['total_time_on_duty'] ?? 0;
+    } catch (Exception $e) {
+        echo $e;
+    }
+}
+
+$license_identifier = 'license:2e31f99ac6dd7ffa3bdf0365e7d300fb4f888250';
+$total_time_on_duty = getDutyTimeByLicenseIdentifier($pdo, $license_identifier);
+
+$hours = floor($total_time_on_duty / 60);
+$minutes = $total_time_on_duty % 60;

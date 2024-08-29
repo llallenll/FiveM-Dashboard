@@ -1,6 +1,6 @@
 <?php include 'auth/init.php'; ?>
 <!DOCTYPE html>
-<html data-wf-page="66c589279f03d31ebeb668ee" data-wf-site="66c421ce29ac786db71695aa">
+<html>
 <head>
   <meta charset="utf-8">
   <title>Profile Settings</title>

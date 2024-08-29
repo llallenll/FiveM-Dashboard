@@ -1,4 +1,5 @@
 <?php include 'auth/init.php'; ?>
+<?php include 'db/db.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -102,12 +103,12 @@
         <div class="players-stats">
           <div class="text-19">Current Department(s)</div>
           <div class="text-20">Staff</div>
-          <div class="text-20">State Trooper</div>
+          <div class="text-20">VPD</div>
         </div>
         <div class="players-stats">
           <div class="text-19">Time Clock</div>
           <div class="text-20">Staff: 0 Hours</div>
-          <div class="text-20">State Trooper: 16 Hours</div>
+          <div class="text-20">VPD: <?php echo $hours . ' Hours ' . $minutes . ' Minutes'; ?></div>
         </div>
       </div>
     </div>
